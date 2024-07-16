@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.head {
+    background: rgb(14,8,8);
+    background: linear-gradient(90deg, rgba(14,8,8,1) 6%, rgba(32,32,30,0.9752275910364145) 29%, rgba(24,24,24,1) 63%, rgba(15,13,13,1) 85%, rgba(41,39,39,1) 96%);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50%;
+    display: inline-flex;
+    padding: 5px 30px;
+  }
+  h3 {
+    color: rgb(255, 238, 0);
+    display: inline-block;
+    text-align: center;
+    text-shadow: 0px 4px 12px rgb(187, 95, 95);
+  }
+
+  .logo{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+  }
+
+  .search-bar {
+    display: inline-flex;
+    margin-left: 300px;
+    align-items: center;
+}
+
+.search-bar input {
+    width: 300px;
+}
+  
+  .poller-one-regular {
+    font-family: "Poller One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  body {
+    background-image: url("https://www.dropbox.com/s/8o59e6kvbb3lt5z/stars.jpg?raw=1");
+    background-size: cover;
+        font-family: "Poller One", serif;
+  }
+
+  .br-sd{
+
+        box-shadow: 5px 5px 15px rgba(255,255,255, 0.8);
+  }
+
+  .kulay{
+
+    color: yellow;
+    text-shadow: 1px 1px 3px  rgb(255, 255, 255);
+  }
+  
+  .randomB {
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 30px auto;
+    padding: 35px 35px;
+    margin: 8% auto;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.8);
+    display: block;
+  }
+  
+  .randomB:hover {
+    transform: scale(1.15);
+    background-color: white;
+    color: black;
+  }
+   h5{
+    text-align: center;
+    
+   }
+  
+  
+  .lightsaber{
+  
+    height: 30px;
+    width: 30px;
+    display:inline-block;
+    position: relative;
+  
+  }
+  
+  
+  .starwars{
+  
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+    display:inline-block;
+    position: absolute;
+  
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 5%;
+  }
